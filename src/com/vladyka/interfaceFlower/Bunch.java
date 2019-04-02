@@ -1,6 +1,6 @@
 package interfaceFlower;
 
-import abstractFlower.Flower;
+import com.vladyka.abstractFlower.Flower;
 
 import java.util.ArrayList;
 import java.util.Collections;

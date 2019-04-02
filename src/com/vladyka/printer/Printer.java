@@ -1,6 +1,6 @@
 package printer;
 
-import abstractFlower.Flower;
+import com.vladyka.abstractFlower.Flower;
 import java.util.ArrayList;
 
 public class Printer {

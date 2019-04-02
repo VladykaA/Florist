@@ -1,6 +1,5 @@
 package abstractFlower;
 
-
 public abstract class Flower implements Comparable {
     private String name;
     private int price;
