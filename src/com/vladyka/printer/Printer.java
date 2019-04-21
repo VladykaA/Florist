@@ -1,6 +1,8 @@
-package printer;
+package com.vladyka.printer;
 
 import com.vladyka.abstractFlower.Flower;
+
+import java.math.BigDecimal;
 import java.util.ArrayList;
 
 public class Printer {
@@ -11,7 +13,7 @@ public class Printer {
         System.out.println();
     }
 
-    public static void printThePrice(int price){
+    public static void printThePrice(BigDecimal price){
         System.out.println("The buch of flowers costs: " + price);
     }
 

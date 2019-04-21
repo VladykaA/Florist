@@ -1,9 +1,9 @@
-import abstractFlower.Flower;
-import flowers.Camomile;
-import flowers.Rose;
-import flowers.Tulip;
-import interfaceFlower.Bunch;
-import printer.Printer;
+import com.vladyka.abstractFlower.Flower;
+import com.vladyka.flowers.Camomile;
+import com.vladyka.flowers.Rose;
+import com.vladyka.flowers.Tulip;
+import com.vladyka.interfaceFlower.Bunch;
+import com.vladyka.printer.Printer;
 
 import java.util.ArrayList;
 

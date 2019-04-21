@@ -1,7 +1,8 @@
-package interfaceFlower;
+package com.vladyka.interfaceFlower;
 
 import com.vladyka.abstractFlower.Flower;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -29,11 +30,11 @@ public class Bunch implements IBunchOfFlowers {
     }
 
     @Override
-    public int getThePrice() {
-        int res = 0;
+    public BigDecimal getThePrice() {
+        BigDecimal res = BigDecimal.ZERO;
         for (Flower f: this.flowerList){
             if (f != null){
-                res += f.getPrice();
+                res = res.add(f.getPrice());
             }else{
                 break;
             }
